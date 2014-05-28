@@ -16,6 +16,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="mob.dev.wheresthefood.app.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="mob.dev.wheresthefood.app.SignUp"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name="mob.dev.wheresthefood.app.ForgottenPass"
+            android:label="@string/title_activity_forgotten_pass" >
+        </activity>
+        <activity
+            android:name="mob.dev.wheresthefood.app.TODOList"
+            android:label="@string/title_activity_todolist" >
+        </activity>
+        <activity
+            android:name="mob.dev.wheresthefood.app.ShoppingList"
+            android:label="@string/title_activity_shopping_list" >
+        </activity>
     </application>
 
 </manifest>
